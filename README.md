@@ -1,6 +1,7 @@
 # Notes App
 ## Fullstack React app with auth using AWS!
 ### Live Site: https://main.d1enigbmx8lx87.amplifyapp.com/
+###### (if its not available, ran out of credits unfortunately)
 
 ### Features:
 - Create, Read, Update, Delete Notes
@@ -13,3 +14,5 @@
 - GraphQL API (AWS AppSync)
 - ReactJS concepts (components, react hooks, async/await, props etc.)
 - Authentication (AWS Cognito)
+
+Demo:
