@@ -127,6 +127,9 @@ const App = ({ signOut }) => {
         ))}
       </View>
       <Button onClick={signOut}>Sign Out</Button>
+      <View padding="1rem 0" />
+
+
     </View>
   );
 };
