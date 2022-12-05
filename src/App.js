@@ -70,21 +70,22 @@ const App = ({ signOut }) => {
 
   return (
     <View className="App">
+      <View padding="1rem 0"></View>
       <Heading level={1}>Notes App</Heading>
       <View as="form" margin="3rem 0" onSubmit={createNote}>
         <Flex direction="row" justifyContent="center">
           <TextField
             name="name"
-            placeholder="Note Name"
-            label="Note Name"
+            placeholder="Title"
+            label="Title"
             labelHidden
             variation="quiet"
             required
           />
           <TextField
             name="description"
-            placeholder="Note Description"
-            label="Note Description"
+            placeholder="Description"
+            label="Description"
             labelHidden
             variation="quiet"
             required
@@ -120,7 +121,7 @@ const App = ({ signOut }) => {
                 style={{ width: 400 }}
               />
             )}
-            <Button variation="link" onClick={() => deleteNote(note)}>
+            <Button variation="menu" onClick={() => deleteNote(note)}>
               Delete note
             </Button>
           </Flex>
@@ -128,8 +129,6 @@ const App = ({ signOut }) => {
       </View>
       <Button onClick={signOut}>Sign Out</Button>
       <View padding="1rem 0" />
-
-
     </View>
   );
 };
