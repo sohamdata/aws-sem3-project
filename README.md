@@ -1,5 +1,5 @@
 # Notes App
-## Fullstack React app with auth using AWS!
+## Fullstack React app with auth using GraphQL and AWS!
 ### Live Site: https://main.d1enigbmx8lx87.amplifyapp.com/
 ###### (if its not available, ran out of credits unfortunately)
 
