@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "awssem3projecta58bc7f9": {}
+      },
+      "api": {
+        "awssem3project": {}
+      },
+      "storage": {
+        "notesstorageservice": {}
       }
     }
   }

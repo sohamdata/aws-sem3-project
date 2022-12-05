@@ -1,0 +1,14 @@
+{
+  "resourceName": "notesstorageservice",
+  "policyUUID": "200ff071",
+  "bucketName": "sohamdattasem3project",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
