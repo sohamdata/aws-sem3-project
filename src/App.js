@@ -10,14 +10,6 @@ function App() {
           Name: <strong>Soham Datta</strong> <br></br>
           Enrollment Number: E21CSEU0980
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
